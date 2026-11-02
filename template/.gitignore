@@ -1,0 +1,22 @@
+# 비밀값 — 절대 커밋하지 않는다
+.env
+.env.*
+!.env.example
+*.keystore
+*.jks
+*.p12
+*.p8
+*.mobileprovision
+google-services.json
+GoogleService-Info.plist
+service-account*.json
+
+# 빌드 산출물
+build/output/
+dist/
+node_modules/
+__pycache__/
+
+# OS
+.DS_Store
+Thumbs.db
